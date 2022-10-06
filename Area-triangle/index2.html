@@ -14,9 +14,9 @@
     const sideB = parseInt(prompt('Enter Second Figure: '));
     const sideC = parseInt(prompt('Enter Third Figure: '));
 
-    const s = (sideA + sideB + sideC) / 2;
+    const semiPeri = (sideA + sideB + sideC) / 2;
 
-    const areaVal = Math.sqrt(s * (s - sideA) * (s - sideB) * (s - sideC));
+    const areaVal = Math.sqrt(semiPeri * (semiPeri - sideA) * (semiPeri - sideB) * (semiPeri - sideC));
 
     alert(`Area Value is ${areaVal}`);
   </script>
