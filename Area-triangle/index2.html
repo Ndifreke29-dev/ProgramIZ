@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+
+  <script>
+    const sideA = parseInt(prompt('Enter First Figure: '));
+    const sideB = parseInt(prompt('Enter Second Figure: '));
+    const sideC = parseInt(prompt('Enter Third Figure: '));
+
+    const s = (sideA + sideB + sideC) / 2;
+
+    const areaVal = Math.sqrt(s * (s - sideA) * (s - sideB) * (s - sideC));
+
+    alert(`Area Value is ${areaVal}`);
+  </script>
+</body>
+</html>
